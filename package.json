@@ -1,0 +1,45 @@
+{
+  "name": "chaindexer",
+  "version": "1.0.0",
+  "description": "A minimal and reliable blockchain event indexer for Node.js backends",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"No tests specified\"",
+    "example": "ts-node src/example.ts"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "events",
+    "indexer",
+    "web3",
+    "ethereum-indexer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "viem": "^1.16.5"
+  },
+  "peerDependencies": {
+    "ethers": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/chaindexer.git"
+  }
+}
