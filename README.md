@@ -174,4 +174,20 @@ const indexer = new Chaindexer({
 - **Typed**: Full TypeScript support with autocomplete
 - **Flexible**: Works with any EVM-compatible blockchain
 
-Perfect for building backends that need reliable blockchain event tracking without complex infrastructure. 
+Perfect for building backends that need reliable blockchain event tracking without complex infrastructure.
+
+## Running Examples
+
+The package includes example code in the `/examples` directory. To run the basic example:
+
+```bash
+# Clone the repository
+git clone https://github.com/kelvinkn17/chaindexer.git
+cd chaindexer
+
+# Install dependencies
+npm install
+
+# Run the example (make sure to add your own Infura keys in the example file first)
+npm run example
+``` 
